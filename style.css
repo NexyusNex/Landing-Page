@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    display:flex;
+}
+
+.header-container{
+    background-color: #1f2937;
+}
+
+#hlogo{
+    font-size: 24px;
+    color:#f9faf8;
+}
