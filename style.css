@@ -11,3 +11,17 @@ body{
     font-size: 24px;
     color:#f9faf8;
 }
+
+ul{
+    color:white;
+}
+
+#herotext{
+    font-size: 48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+#herosubtext{
+    font-size: 24px;
+    color: #e5e7eb;
+}
