@@ -64,5 +64,13 @@ ul{
 #herosubtext{
     font-size: 18px;
     color: #e5e7eb;
-    margin:0px;
+    margin:8px 0px;
+}
+
+button{
+    background-color: #3882f8;
+    border-radius: 6px;
+    border-color: #3882f8;
+    padding:4px 26px;
+    color:white;
 }
