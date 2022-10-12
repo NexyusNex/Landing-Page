@@ -1,10 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 body{
+    font-family: 'Roboto',sans-serif;
     margin:0;
     display:flex;
 }
 
 .header-container{
+    display:flex;
+    width: 100%;
     background-color: #1f2937;
+    padding:0 20%;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content:space-between;
+    
 }
 
 #hlogo{
@@ -12,16 +27,42 @@ body{
     color:#f9faf8;
 }
 
+.header-container ul{
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+
 ul{
     color:white;
+}
+
+.hero{
+    display:flex;
+    margin:64px 0;
+    justify-content: space-between;
+}
+
+.hero img{
+   width:400px;
+   height:250px;
+}
+
+.htext{
+    max-width:450px;
 }
 
 #herotext{
     font-size: 48px;
     font-weight: 900;
     color:#f9faf8;
+    margin:0px;
 }
 #herosubtext{
-    font-size: 24px;
+    font-size: 18px;
     color: #e5e7eb;
+    margin:0px;
 }
