@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto',sans-serif;
     margin:0;
     display:flex;
+    flex-wrap: wrap;
 }
 
 .header-container{
@@ -73,4 +74,12 @@ button{
     border-color: #3882f8;
     padding:4px 26px;
     color:white;
+}
+
+.information-container{
+    display:flex;
+    width:100%;
+    padding:0 20%;
+    text-align:center;
+    justify-content: center;
 }
