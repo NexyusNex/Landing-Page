@@ -82,4 +82,21 @@ button{
     padding:0 20%;
     text-align:center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.information-container img{
+    width:150px;
+    height:150px;
+}
+.title{
+    margin:64px 0;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+}
+.item{
+    max-width: 150px;
 }
