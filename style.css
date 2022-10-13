@@ -48,12 +48,12 @@ ul{
 }
 
 .hero img{
-   width:400px;
+   width:50%;
    height:250px;
 }
 
 .htext{
-    max-width:450px;
+    width:50%;
 }
 
 #herotext{
@@ -65,7 +65,7 @@ ul{
 #herosubtext{
     font-size: 18px;
     color: #e5e7eb;
-    margin:8px 0px;
+    margin:10px 0px;
 }
 
 button{
