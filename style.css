@@ -89,14 +89,74 @@ button{
     width:150px;
     height:150px;
 }
+
 .title{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
     margin:64px 0;
 }
+
 .image-container{
     display: flex;
     justify-content: center;
     gap:52px;
+    margin-bottom: 124px;
 }
+
 .item{
     max-width: 150px;
+}
+
+.quote-container{
+    display: flex;
+    background-color: #e5e7eb;
+    padding:150px 20%;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:300;
+    color:#1f2937;
+}
+.guy{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.signup-container{
+    display: flex;
+    padding:100px 20%;
+    width:100%;
+}
+.button-container{
+    background-color: #3882f8;
+    border-radius: 12px;
+    width:100%;
+    height: 125px;
+    padding:0 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action{
+    color:white;
+}
+
+.actiontext{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-container button{
+    border-color: white;
+}
+
+.footer{
+    text-align: center;
+    width:100%;
+    background-color: #1f2937;
+    color: white;
+    padding:25px 0;
 }
